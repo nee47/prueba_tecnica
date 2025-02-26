@@ -1,0 +1,52 @@
+# Ignorar node_modules en ambas carpetas
+client/node_modules/
+backend/node_modules/
+
+# Ignorar archivos de dependencias bloqueadas
+client/package-lock.json
+backend/package-lock.json
+client/pnpm-lock.yaml
+backend/pnpm-lock.yaml
+client/yarn.lock
+backend/yarn.lock
+
+# Ignorar archivos de entorno (variables de configuración sensibles)
+client/.env
+backend/.env
+client/.env.local
+backend/.env.local
+client/.env.development
+backend/.env.development
+client/.env.production
+backend/.env.production
+
+# Ignorar directorios de compilación y salida
+client/.next/
+backend/dist/
+backend/build/
+
+# Ignorar logs y archivos temporales
+client/.npm/
+backend/.npm/
+client/.cache/
+backend/.cache/
+client/.turbo/
+backend/.turbo/
+client/logs/
+backend/logs/
+client/*.log
+backend/*.log
+
+
+# Ignorar archivos de sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Ignorar configuraciones de editores de código
+.vscode/
+.idea/
+*.swp
+
+# Ignorar archivos de Docker (si usas Docker)
+client/.dockerignore
+backend/.dockerignore
